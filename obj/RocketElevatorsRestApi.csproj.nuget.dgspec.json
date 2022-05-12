@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API/RocketElevatorsRestApi.csproj": {}
+    "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API1/RocketElevatorsRestApi.csproj": {}
   },
   "projects": {
-    "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API/RocketElevatorsRestApi.csproj": {
+    "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API1/RocketElevatorsRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API/RocketElevatorsRestApi.csproj",
+        "projectUniqueName": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API1/RocketElevatorsRestApi.csproj",
         "projectName": "RocketElevatorsRestApi",
-        "projectPath": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API/RocketElevatorsRestApi.csproj",
+        "projectPath": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API1/RocketElevatorsRestApi.csproj",
         "packagesPath": "/Users/andrereyes/.nuget/packages/",
-        "outputPath": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API/obj/",
+        "outputPath": "/Users/andrereyes/school-projects/Rocket_Elevators_REST_API1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrereyes/.nuget/NuGet/NuGet.Config"

@@ -6,6 +6,7 @@ namespace DotNetCoreMySQL.Models
 {
     public partial class User
     {
+        
         public User()
         {
             Customers = new HashSet<Customer>();

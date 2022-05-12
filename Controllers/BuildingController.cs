@@ -41,7 +41,7 @@ namespace TodoApi.Controllers
 
             return building;
         }
-        // GET: api/Building/intervention
+        // GET: api/Building/interventione
         [HttpGet("intervention")]
         public async Task<ActionResult<IEnumerable<Building>>> GetInterventionBuildings()
         {

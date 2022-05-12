@@ -42,6 +42,44 @@ namespace TodoApi.Controllers
             return user;
         }
 
+
+        
+
+        
+
+
+        // [HttpGet("isCustomer/{email}")]
+        // public async Task<ActionResult<Employee>> IsValidUser(string email)
+        // {
+        //     Console.WriteLine(email);
+        //     var allUsers = await _context.users.ToListAsync();
+        //     var validUser = allUsers.Where(u => u.email == email);
+        //     if(validUser.Count() > 0) {
+        //         var employee = await _context.employees.FindAsync(validUser.First().id);
+        //         Console.WriteLine("---------------- " + employee + "-----------------");
+        //         if(employee != null) {
+        //             return employee;
+        //         } 
+        //     }
+        //     return Unauthorized();
+        // }
+
+
+        [HttpGet("isEmployee/{email}")]
+        public async Task<ActionResult<Employee>> IsValidUser(string email)
+        {
+            Console.WriteLine(email);
+            var allUsers = await _context.users.ToListAsync();
+            var validUser = allUsers.Where(u => u.email == email);
+            if(validUser.Count() > 0) {
+                var employee = await _context.employees.FindAsync(validUser.First().id);
+                if(employee != null) {
+                    return employee;
+                } 
+            }
+            return Unauthorized();
+        }
+
         // PUT: api/User/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(long id, User user)
